@@ -178,7 +178,8 @@ footer {
   border-radius: 12px;
   -moz-appearance: none;
   -webkit-appearance: none;
-  appearance: none;
+  /* this is to tell the browser to do nothing with dropdown but use css style */
+  appearance: none; 
   background-color: #fff;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat, repeat;
